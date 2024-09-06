@@ -1,188 +1,35 @@
 body {
-    background-color: #282c34;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-.container {
-    background-color: #16181d;
+#message {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#countdown {
+    font-size: 18px;
+    color: #666;
+}
+
+#logs {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    width: 90%;
-    max-width: 1200px;
+    margin: 20px;
 }
 
-.header {
-    background-color: #16181d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.bitcoin-logo {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-}
-
-.version {
-    color: #586069;
-}
-
-.close {
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.sidebar {
-    background-color: #16181d;
-    width: 150px;
-    padding: 20px;
-}
-
-.sidebar div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.dashboard-icon,
-.search-icon,
-.settings-icon,
-.support-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.main {
-    background-color: #16181d;
-    padding: 20px;
-    flex-grow: 1;
-}
-
-.blockchain {
-    margin-bottom: 20px;
-}
-
-.blockchain-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.blockchain-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #282c34;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.blockchain-logo {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
-}
-
-.blockchain-item:hover {
-    background-color: #32363f;
-}
-
-.checkmark {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #5cb85c;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-}
-
-.info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.checked,
-.found {
-    background-color: #282c34;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.wallet-checks {
-    color: #dc3545;
-    font-size: 12px;
-    margin-top: 10px;
-    line-height: 1.5;
-}
-
-.coin-info {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.coin-logo {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.stop,
-.start,
-.withdraw {
+#start-mining {
+    background-color: #4CAF50;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #4285f4;
-    color: #fff;
-    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.stop:hover {
-    background-color: #3578e5;
-}
-
-.start:hover {
-    background-color: #3578e5;
-}
-
-.withdraw:hover {
-    background-color: #3578e5;
-}
-
-.license {
-    color: #586069;
-    font-size: 12px;
-    text-align: center;
+#start-mining:hover {
+    background-color: #3e8e41;
 }
