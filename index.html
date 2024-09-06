@@ -1,116 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoFactory</title>
+    <title>Crypt Official V2</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <img src="https://www.svgrepo.com/show/14735/bitcoin.svg" alt="Bitcoin logo" class="bitcoin-logo">
-                <h1>CryptoFactory</h1>
-            </div>
-            <div class="version">
-                <p>VER 1.0</p>
-            </div>
-            <div class="close">
-                <span>X</span>
-            </div>
-        </div>
-        <div class="sidebar">
-            <div class="dashboard">
-                <img src="https://www.svgrepo.com/show/285926/dashboard.svg" alt="Dashboard icon" class="dashboard-icon">
-                <p>Dashboard</p>
-            </div>
-            <div class="search">
-                <img src="https://www.svgrepo.com/show/303061/search.svg" alt="Search icon" class="search-icon">
-                <p>Search</p>
-            </div>
-            <div class="settings">
-                <img src="https://www.svgrepo.com/show/303061/settings.svg" alt="Settings icon" class="settings-icon">
-                <p>Settings</p>
-            </div>
-            <div class="support">
-                <img src="https://www.svgrepo.com/show/303061/support.svg" alt="Support icon" class="support-icon">
-                <p>Support</p>
-            </div>
-        </div>
-        <div class="main">
-            <div class="blockchain">
-                <h2>Select a blockchain</h2>
-                <p>Here you can turn on/off blockchains for search</p>
-                <div class="blockchain-list">
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/14735/bitcoin.svg" alt="Bitcoin logo" class="blockchain-logo">
-                        <p>BTC</p>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/14751/ethereum.svg" alt="Ethereum logo" class="blockchain-logo">
-                        <p>ETH</p>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/288882/bnb.svg" alt="BNB logo" class="blockchain-logo">
-                        <p>BNB</p>
-                        <div class="checkmark"></div>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/250355/solana.svg" alt="Solana logo" class="blockchain-logo">
-                        <p>SOL</p>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/235528/tron.svg" alt="Tron logo" class="blockchain-logo">
-                        <p>TRX</p>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/355546/xrp.svg" alt="XRP logo" class="blockchain-logo">
-                        <p>XRP</p>
-                    </div>
-                    <div class="blockchain-item">
-                        <img src="https://www.svgrepo.com/show/347597/dogecoin.svg" alt="Dogecoin logo" class="blockchain-logo">
-                        <p>DOGE</p>
-                        <div class="checkmark"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="info">
-                <div class="checked">
-                    <p>Checked: 823456334</p>
-                    <div class="wallet-checks">
-                        <p>Balance: 0 | Wallet check: shrug inhale...</p>
-                        <p>Balance: 0 | Wallet check: pudding monke...</p>
-                        <p>Balance: 0 | Wallet check: nephew salmon...</p>
-                        <p>Balance: 0 | Wallet check: pudding labor...</p>
-                        <p>Balance: 0 | Wallet check: useful emerge...</p>
-                        <p>Balance: 0 | Wallet check: clock cattle...</p>
-                        <p>Balance: 0 | Wallet check: detect sound...</p>
-                        <p>Balance: 0 | Wallet check: marble excuse...</p>
-                        <p>Balance: 0 | Wallet check: lunch undo wo...</p>
-                        <p>Balance: 0 | Wallet check: pull real vin...</p>
-                    </div>
-                </div>
-                <div class="found">
-                    <p>Found: 1</p>
-                    <div class="coin-info">
-                        <img src="https://www.svgrepo.com/show/347597/dogecoin.svg" alt="Dogecoin logo" class="coin-logo">
-                        <p>14872.0 DOGE ≈ $0.0 | target runw...</p>
-                    </div>
-                </div>
-            </div>
-            <div class="buttons">
-                <button class="stop">Stop</button>
-                <button class="start">Start</button>
-                <button class="withdraw">Withdraw</button>
-            </div>
-            <div class="license">
-                <p>01.02.2024</p>
-                <p>license expires</p>
-                <p>Update software</p>
-            </div>
-        </div>
-    </div>
+    <h1>Bitcoin mining</h1>
+    <p id="message">Bienvenido a la minería de bitcoin, Raúl</p>
+    <p id="countdown">La minería empezará en unos segundos:</p>
+    <div id="logs"></div>
+    <button id="start-mining">Iniciar minería</button>
+
     <script src="script.js"></script>
 </body>
 </html>
